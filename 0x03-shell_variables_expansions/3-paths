@@ -1,2 +1,2 @@
 #!/bin/bash
-tree | tail -l
+ls -l | grep ^d | wc -l
